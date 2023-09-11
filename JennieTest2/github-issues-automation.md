@@ -12,7 +12,7 @@ ms.prod: non-product-specific
 
 # Use the GitHub Issues Automation app
 
-The GitHub Issues Automation app works with the [GitHub issues documentation control](github-issues-feedback.md). The app helps manage customer feedback issues. The goal of the app is to partially automate triage and management processes. The app also allows Microsoft employees to take action on issues with only Read permissions to a repo.
+The GitHub Issues Automation app works. The app helps manage customer feedback issues. The goal of the app is to partially automate triage and management processes. The app also allows Microsoft employees to take action on issues with only Read permissions to a repo.
 
 When installed on a repo, the app provides the following functionality.
 
@@ -48,7 +48,7 @@ Learn platform repos often have a large number of contributors, and it's not pra
 
 |Command              |Usage    |
 |---------------------|---------|
-|`#assign:<GitHubID>` |Add a GitHub ID to the command, such as `#assign:tysonn`. This command assigns the issue to that person.<br>![assigned to Tyson.](media/assigned-issue.png) |
+|`#assign:<GitHubID>` |Add a GitHub ID to the command, such as `#assign:tysonn`. This command assigns the issue to that person |
 |`#reassign:<GitHubID>`|Assigns the issue to the specified GitHub user and removes other assignees.|
 |`#pri1`               |Adds the **Pri1** label and removes **Pri2** or **Pri3** if present.|
 |`#pri2`               |Adds the **Pri2** label and removes **Pri1** or **Pri3** if present.|
