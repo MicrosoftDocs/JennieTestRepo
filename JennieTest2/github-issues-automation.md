@@ -16,6 +16,8 @@ The GitHub Issues Automation app works. The app helps manage customer feedback i
 
 When installed on a repo, the app provides the following functionality.
 
+There are some updates.
+
 ## Service and product labeling
 
 In docs articles, we use metadata to indicate the product or service the article applies to. When a customer submits a docs feedback issue via the feedback control, a Details pane is generated that includes any values for the `ms.service`, `ms.subservice`, `ms.prod`, or `ms.technology` attributes in the article. The issues automation app reads this information from the issue's details and applies a label for each attribute present. The label consists of the attribute value plus a suffix indicating whether it's a service, product, and so on:
